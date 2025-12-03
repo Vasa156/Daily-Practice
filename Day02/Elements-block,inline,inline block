@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>level 4</title>
+        <style>
+            .block-box{
+                background: lightgreen;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid black;
+            }
+            .inline-text{
+                background: yellow;
+                padding: 5px;
+                border: 1px solid black;
+            }
+            .inline-block{
+                width: 150px;
+                height: 100px;
+                background: skyblue;
+                display: inline-block;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Block Elements</h2>
+        <div class="block-box">block box 1</div>
+        <div class="block-box">block box 2</div>
+        <div class="block-box">block box 3</div>
+        
+        <h2>Inline Elements</h2>
+        <span class="inline-text">Inline 1</span>
+        <span class="inline-text">Inline 2</span>
+        <span class="inline-text">Inline 3</span>
+        
+        <h2>Inline-block Elements</h2>
+        <div class="inline-block"></div>
+        <div class="inline-block"></div>
+        <div class="inline-block"></div>
+    </body>
+</html>
