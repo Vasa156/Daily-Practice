@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>level 5 - text styling</title>
+        <style>
+            body{
+                background: #fdf1ff;
+            }
+            h1{
+                font-size: 40px;
+                color: purple;
+                text-shadow: 3px 3px 5px gray;
+            }
+            p{
+                font-size: 18px;
+                line-height: 1.7;
+                text-align: justify;
+                text-indent: 50px;
+                letter-spacing: 1px;
+                word-spacing: 5px;
+            }
+            a{
+                color: darkblue;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover{
+                color: red;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Positive Mindset</h1>
+        <P>A positive mindset helps you learn faster and stay motivated.
+           It reduces stress, increases focus, and boosts mental energy.
+           Challenges become easier when you believe you can improve. 
+           A strong mindset will support you through your learning 
+           journey and career growth.</P>
+        <a href="https://www.google.com">google</a>   
+    </body>
+</html>
