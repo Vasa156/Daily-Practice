@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 6</title>
+        <style>
+            body{
+                background-color: lightyellow;
+            }
+            .box1{
+                width: 200px;
+                height: 100px;
+                background-image: url("https://picsum.photos/300/200");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                border: 2px solid purple;
+                padding: 10px;
+                margin: 20px;
+            }
+            .box2{
+                width: 200px;
+                height: 100px;
+                background-image: url("https://picsum.photos/300/200");
+                background-attachment: fixed;
+                background-size: cover;
+                border: 2px dashed black;
+                margin: 20px;
+            }
+            .box3{
+                width: 200px;
+                height: 100px;
+                background: linear-gradient(skyblue,red);
+                margin: 20px;
+            }
+        </style>
+    </head>
+    
+   <body>
+       <h1>CSS Backgounds</h1>
+       <div class="box1">Background size</div>
+       <div class="box2">Background attachement</div>   
+       <div class="box3">Gradient colors</div>
+    </body>
+</html>
