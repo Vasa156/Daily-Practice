@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 6</title>
+        <style>
+        .card{
+            width: 300px;
+            height: 150px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            background:
+            linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+            url("https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg");
+
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px #555;
+            
+        }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <p>"A single rose can be my garden; <br>
+                A single friend, my world."</p>
+        </div>
+    </body>
+</html>
