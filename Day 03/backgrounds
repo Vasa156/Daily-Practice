@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day-06</title>
+        <style>
+            body{
+                 background:  #f9f9f9;
+            }
+            .card1,.card2,.card3{
+                width: 300px;
+                height: 180px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                padding: 20px;
+                background-position: center;
+               
+            }
+            .card1{
+                color: white;
+                
+                background:
+                
+                linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)),
+                url("https://picsum.photos/50/50");
+                background-size: cover;
+                border-radius: 10px;
+            }
+            .card2{
+                background: linear-gradient(red,yellow,blue);
+                box-shadow:4px 4px 10px rgba(0,0,0,0.3);
+                text-align: center;
+            }
+            .card3{
+                background: url("https://picsum.photos/50/50");
+                background-repeat: repeat;
+                background-size: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card1">Hi, I am card1</div><br>
+        <div class="card2">I am card2</div><br>
+        <div class="card3">Hello</div>
+    </body>
+</html>
