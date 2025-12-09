@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 7 Flex Practice</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .card {
+            width: 120px;
+            height: 80px;
+            background: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Row + Center -->
+    <div class="container" style="flex-direction: row; justify-content: center; align-items: center;">
+        <div class="card">One</div>
+        <div class="card">Two</div>
+        <div class="card">Three</div>
+    </div>
+
+    <!-- Row + Space-between -->
+    <div class="container" style="flex-direction: row; justify-content: space-between;">
+        <div class="card">One</div>
+        <div class="card">Two</div>
+        <div class="card">Three</div>
+    </div>
+
+    <!-- Column + Center -->
+    <div class="container" style="flex-direction: column; justify-content: center; align-items: center; height: 250px;">
+        <div class="card">One</div>
+        <div class="card">Two</div>
+        <div class="card">Three</div>
+    </div>
+
+    <!-- Column + Space-evenly -->
+    <div class="container" style="flex-direction: column; justify-content: space-evenly; height: 250px;">
+        <div class="card">One</div>
+        <div class="card">Two</div>
+        <div class="card">Three</div>
+    </div>
+
+</body>
+</html>
