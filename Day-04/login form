@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex-box-user page</title>
+        
+        <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: lightblue;
+        }
+        .login{
+            width: 300px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+        }
+        
+       .login h1{
+           text-align: center;
+           font-family: Sans-Serif;
+           font-weight: bold;
+           margin-bottom: 20px;
+        }
+        .login input{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            font-size: 15px;
+            
+        }
+        button{
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover{
+           
+            background: #0056cc;
+        }
+    </style>
+    </head>
+    
+    <body>
+       
+        <form class="login">
+            <h1>Login</h1>
+            <input type="text" placeholder="Username" required> <br><br>
+            <input type="password" placeholder="Password" required><br><br>
+            <button>Login</button>
+        </form>    
+    </body>
+</html>
