@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex-Box using Pricing Cards</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }        
+            body{
+                margin: 0;
+                background-color: #FFCDC9;
+                font-family: Sans-Serif;
+                display: flex;
+                justify-content: center;
+                padding: 40px;
+            }
+            .pricing-container{
+                display: flex;
+                gap: 20px;
+            }
+            .card{
+                width: 250px;
+                background: white;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow:0 4px 10px rgba(0,0,0,0.1) ;
+                transition: 0.3s;
+            }
+            .card:hover{
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+            }
+            button{
+                width: 100%;
+                padding: 10px;
+                border: none;
+                background: #FFCDC9;
+                color: white;
+                font-size: 15px;
+                margin: 0 15px;
+                cursor: pointer;
+            }
+            button:hover{
+                background: #FD7979;
+            }
+        </style>
+    </head>
+    
+    <body>
+       <div class="pricing-container">
+           
+          <!------card 1------>
+          <div class="card">
+              <h2>BASIC</h2>
+              <p>(₹199/Month)</p>
+              <p>✓ Feature1</p>
+              <p>✓ Feature2</p>
+              <p>✓ Feature3</p>
+              <button>Buy Now</button>
+          </div>
+          
+          <!---------card 2-------->
+          <div class="card">
+              <h2>STANDARD</h2>
+              <p>(₹399/Month)</p>
+              <p>✓ Feature1</p>
+              <p>✓ Feature2</p>
+              <p>✓ Feature3</p>
+              <button>Buy Now</button>
+          </div>
+          
+          
+          <!---------card 3-------->
+          <div class="card">
+              <h2>PREMIUM</h2>
+              <p>(₹699/Month)</p>
+              <p>✓ Feature1</p>
+              <p>✓ Feature2</p>
+              <p>✓ Feature3</p>
+              <button>Buy Now</button>
+          </div>
+       </div>
+    </body>
+</html>
