@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex-Box using navigation</title>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #222;
+            padding: 15px 40px;
+        }
+        .logo{
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .menu{
+            display: flex;
+            gap: 20px;
+        }
+        .menu a{
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .menu a:hover{
+            color: #8CA9FF;
+        }
+        
+        </style>
+    </head>
+    
+    <body>
+        <header class="navbar">
+            <div class="logo">Vasu</div>8CA9FF
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+    </body>
+</html>
