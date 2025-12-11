@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>add to cart</title>
+        
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                
+            }
+            .cart{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                flex-wrap: wrap;
+                
+            }
+            .cartdetails{
+                font-family: Sans-Serif;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .cartdetails img{
+                width: 250px;
+                
+            }
+            .cartdetails button{
+                color: white;
+                background: #FFB4B4;
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 15px;
+                padding: 5px;
+                cursor: pointer;
+                border-radius: 10px;
+                border-color: #FFB4B4;
+            }
+            .cartdetails button:hover{
+                background: #FB4141;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cart">
+            <div class="cartdetails">
+                <img src="https://picsum.photos/200?random=1" alt="Shoes">
+                <p>Shoes</p>
+                <p>$10</p>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="cartdetails">
+                <img src="https://picsum.photos/200?random=2" alt="Headphones">
+                <p>Head Phones</p>
+                <p>$5</p>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="cartdetails">
+                <img src="https://picsum.photos/200?random=3" alt="Perfume">
+                <p>Perfume</p>
+                <p>$50</p>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="cartdetails">
+                <img src="https://picsum.photos/200?random=4" alt="watch">
+                <p>Watch</p>
+                <p>$150</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </body>
+</html>
