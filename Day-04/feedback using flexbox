@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox Testimonial</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial;
+            background: #F7EDED;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .test-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            width: 260px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
+        .name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .review {
+            margin-top: 10px;
+            font-size: 15px;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="test-container">
+
+        <div class="card">
+            <img src="https://picsum.photos/80?random=11">
+            <div class="name">Priya</div>
+            <div class="review">Amazing product! Quality is very good. Worth the money.</div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/80?random=12">
+            <div class="name">Rahul</div>
+            <div class="review">Fast delivery and excellent customer support. Loved it!</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
