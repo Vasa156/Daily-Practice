@@ -1,3 +1,7 @@
+<!-----I used CSS Grid for page layout and Flexbox inside components for alignment.---------->
+
+
+
 <!DOCTYPE html>
     <html>
         <head>
