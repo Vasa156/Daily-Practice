@@ -1,0 +1,42 @@
+<style>
+.box1, .box2, .box3{
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Box 1 */
+.box1{
+    background: green;
+}
+.box1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+}
+
+/* Box 2 */
+.box2{
+    background: orange;
+}
+.box2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+/* Box 3 */
+.box3{
+    background: blue;
+}
+.box3:hover{
+    transform: rotate(3deg);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+</style>
+
+<div class="box-container">
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+    <div class="box3">Box 3</div>
+</div>
