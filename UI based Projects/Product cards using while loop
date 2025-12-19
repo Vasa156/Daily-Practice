@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js</title>
+        <style>
+            body{
+                font-family: Sans-Serif;
+                padding: 20px;
+            }
+            button{
+                padding: 10px 15px;
+                background: #90AB8B;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+            .product{
+                margin-top: 10px;
+                padding: 10px;
+                background: #C5D89D;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Products</h2>
+        <button id="btn">showProducts</button>
+        <p id="output"></p>
+        <script>
+        document.getElementById("btn").addEventListener("click",showProducts);
+        function showProducts(){
+            let products =["Mobile","Headphone","Laptop","Charger","TV"];
+            let i=0;
+            
+            let result="";
+            
+            while(i<products.length){
+                result += "<div class='product'>" + products[i] + "</div>";
+                i++;
+            }
+            document.getElementById("output").innerHTML= result;
+        }
+            
+        </script>
+    </body>
+</html>
