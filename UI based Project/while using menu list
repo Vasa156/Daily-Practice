@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UI based projects</title>
+        <style>
+            body{
+                font-family: Sans-Serif;
+                font-weight: bold;
+                font-size: 15px;
+                background: #EBD5AB;
+                padding: 20px;
+            }
+            button{
+                padding: 8px 12px;
+                font-size: 18px;
+                background: #F1F3E0;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            button:hover{
+                background: #D6D85D;
+            }
+            .price{
+                margin-top: 10px;
+                padding: 10px;
+                background: #778873;
+                border-radius: 5px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Menu</h2>
+        <button id="btn">foodPrice</button>
+        <p id="output"></p>
+       <script>
+       document.getElementById("btn").addEventListener("click",foodPrice);
+       function foodPrice() {
+           let food = ["Pizza-₹100","Burgar-₹50","Dosa-₹80","Idly-₹50"];
+           let i=0;
+           
+           let result="";
+           
+           while(i<food.length){
+               result +="<div class='price'>"+food[i]+"</div>";
+               i++;
+           }
+           document.getElementById("output").innerHTML=result;
+       }
+           
+       </script>
+    </body>
+</html>
