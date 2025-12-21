@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <button onclick="addItem('soap')">Pizza</button>
+        <button onclick="addItem('burgar')">Burgar</button>
+        <button onclick="addItem('dosa')">Dosa</button>
+        <button onclick="removeitem()">Remove last item</button>
+        
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <script>
+            let cart = [];
+            
+            function addItem(item){
+                cart.push(item);
+                updateUI();
+            }
+            function removeitem(){
+                cart.pop();
+                updateUI();
+            }
+            function updateUI(){
+                document.getElementById("demo").innerText = cart.join(", ");
+                document.getElementById("demo1").innerText = "Total count:"+cart.length;
+            }
+            
+        </script>
+    </body>
+</html>
