@@ -3,7 +3,7 @@
         <button onclick="addItem('soap')">Pizza</button>
         <button onclick="addItem('burgar')">Burgar</button>
         <button onclick="addItem('dosa')">Dosa</button>
-        <button onclick="removeitem()">Remove last item</button>
+        <button onclick="removeItem()">Remove last item</button>
         
         <p id="demo"></p>
         <p id="demo1"></p>
