@@ -1,0 +1,21 @@
+<button onclick="addItem('Apple')">Add Apple</button>
+<button onclick="addItem('Banana')">Add Banana</button>
+<button onclick="addItem('Orange')">Add Orange</button>
+
+<p id="item"></p>
+<p id="count"></p>
+<script>
+    let cart =[];
+    
+    function addItem(item){
+        cart.push(item);
+        updateUI();
+    }
+    function updateUI(){
+        
+        document.getElementById("item").innerText=cart.join(", ");
+        document.getElementById("count").innerText="total count:"+cart.length;
+        
+    }
+    
+</script>
