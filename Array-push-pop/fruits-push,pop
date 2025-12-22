@@ -1,0 +1,33 @@
+<button onclick="addTocart('Watermelon',10)">Add watermelon</button>
+<button onclick="addTocart('Orange',15)">Add orange</button>
+<button onclick="removeItem()">removeItem</button>
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+    let cart = [];
+
+    function addTocart(fruitname,price){
+        cart.push({fruitname,price});
+        updateUI();
+        
+    }
+    
+    function removeItem(){
+        cart.pop();
+        updateUI();
+    }
+    function updateUI(){
+        let output ="";
+        let total= 0;
+        
+        for(let i=0;i<cart.length;i++){
+            output += cart[i].fruitname+" - $"+cart[i].price+ "\n";
+            total += cart[i].price;
+            
+            document.getElementById("demo").innerText= output;
+            document.getElementById("demo1").innerText="Total count: $"+total;
+        }
+        
+    }
+</script>
