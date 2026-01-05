@@ -1,0 +1,6 @@
+let n=7;
+let mul;
+for(let i=10;i>=1;i--){
+    mul=i*n;
+    console.log(i+"X"+n+"="+mul);
+}
