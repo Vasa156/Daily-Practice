@@ -1,0 +1,16 @@
+let n=5;
+for(let i=n;i>=1;i--){
+    let line="";
+    for(let j=n;j>=i;j--){
+        line+=j;
+    }
+    console.log(line);
+}
+
+/*
+5
+54
+543
+5432
+54321
+*/
