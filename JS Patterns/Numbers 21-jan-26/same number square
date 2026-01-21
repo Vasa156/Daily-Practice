@@ -1,0 +1,16 @@
+let n=5;
+for(let i=1;i<=n;i++){
+    let line="";
+    for(let j=1;j<=n;j++){
+        line+=i;
+    }
+    console.log(line);
+}
+
+/*
+11111
+22222
+33333
+44444
+55555
+*/
